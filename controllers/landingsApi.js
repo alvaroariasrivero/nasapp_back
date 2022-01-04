@@ -24,15 +24,6 @@ const getLandingByQuery = async(req, res) => {
     }
 }
 
-// const toNumber = async() => {
-//     await Landing.updateMany(
-//         { 'mass' : { $type: 2 }},
-//         [{ $set: { 'mass': { $toDouble: '$mass' } } }]
-//         )
-// }
-// toNumber()
-// La llamo y la borro porque convierte los strings a número una vez, y no hace falta llamarla más
-
 const getLandingByMass = async(req, res) => {
     let data;
     try {
