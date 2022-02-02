@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const landingsApi = require('./controllers/landingsApi');
 const neasApi = require('./controllers/neasApi');
